@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gonxprom/public_html/staging_git_repo
+    - /bin/cp -R * $DEPLOYPATH
